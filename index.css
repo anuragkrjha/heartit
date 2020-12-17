@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color:rgb(236, 224, 224);
+    overflow:hidden;
+    top:0;
+    position:fixed;
+    min-height: 8vh;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+    
+}
+.nav h1{
+    font-family: 'Lobster', cursive;
+font-family: 'Ranchers', cursive;
+    
+}
+.nav h1,ul{
+    flex: 1;
+    flex-direction: row;
+}
+.nav ul{
+   
+    display:flex;
+    justify-content: space-between;
+    margin-right:10px;
+    font-family: 'East Sea Dokdo', cursive;
+font-family: 'Texturina', serif;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.body1{
+    margin-top:10vh;
+    height:1000px;
+}
+.sideright{
+    width:30%;
+    float:left;
+    margin-left:50px;
+    margin-top:30vh;
+}
+.sideleft{
+    width:50%;
+    float:right;
+    margin-top:20vh;
+
+}
+h1{
+    color:purple;
+}
+h3{
+    color:white;
+}
+.body2{
+    background-color:rgb(110, 110, 211);
+    margin: 0;
+    padding: 0;
+   
+    justify-content: center;
+    align-items:center;
+
+    height: 120vh;
+    width: 100%;
+}
+
+h2{
+    margin-left: 40%;
+    
+}
+.move{
+    width: 350px;
+    height: 610px;
+    margin-left:40%;
+    background-color: #1e1e26;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: border-box;
+    
+    
+}
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+
+  
+
+.test{
+    background-color:rgb(110, 211, 187);
+    
+    padding: 0;
+   
+    justify-content: center;
+    align-items:center;
+
+    height: 60vh;
+    width: 100%;
+}
+p1{
+    color:white;
+}
+.que{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.test1{
+
+    width: 350px;
+    height: 300px;
+    background-color: #1e1e26;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: border-box;
+    margin: 20px 10px;
+}
+h9{
+    margin-left:40%;
+    font-size: large;
+}
+.counters{
+    height: 200px;
+    font-size:large;
+   display:flex;
+   text-align:center;
+   align-items: center;
+   justify-content: space-between;
+}
+.faq{
+    height:500px;
+    background-color:skyblue;
+}
+.side-left{
+    float: left;
+    margin-top: 90px;
+    padding:55px;
+    overflow: hidden;
+    background-color:white;
+    border-radius:40%;
+    width:60%;
+    height:300px;
+}
+.side-right{
+    float: right;
+    width: 40%;
+    text-align:center;
+    
+    margin-top:50px;
+    border-radius:15%;
+}
+.side-right ul {
+    list-style:none;
+    margin:10px;
+    
+    padding:10px;
+}
+.side-right ul li a{
+    display: block;
+    height: 60px;
+    border-radius:10%;
+    border-bottom-left-radius: 10px;
+    background-color: #dddddd;
+
+}
+.upe{
+    height:600px;
+    width: 100%;
+
+}
+h8{
+    margin-left:40%;
+    font-size:50px;
+    color:purple;
+}
+.e1 {
+    left: 20px;
+    height:150px;
+    width: 20%;
+    background-color:skyblue;
+}
+.e2{
+    float: right;
+    height:150px;
+    width: 30%;
+    background-color:skyblue;
+}
+.e3{
+    left:40px;
+    margin-top:150px;
+    height:150px;
+    width: 50%;
+    background-color: skyblue;
+}
+
+.nm{
+    background-color:rgb(110, 110, 211);
+    margin: 0;
+    padding: 0;
+   
+    justify-content: center;
+    align-items:center;
+
+    height: 80vh;
+    width: 100%;
+}
+
+.news{
+    width: 670px;
+    height: 300px;
+    background-color: white;
+    margin-left:35%;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: border-box;
+    
+    
+}
+
+
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+h6{
+    font-size: 70px;
+    margin-left: 20%;
+}
+h5{
+    font-size:40px;
+    
+}
+.contact{
+    
+    margin-right:170px;
+}
+
+.sr ul{
+    float:right;
+    width:165px;
+}
